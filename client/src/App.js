@@ -1,9 +1,9 @@
-import './App.css';
-import LoginPage from './LoginPage';
+
+import TeacherRegistor from './TeacherRegistor';
 function App() {
   return (
     <div>
-        <LoginPage />
+        <TeacherRegistor />
     </div>
   );
 }
