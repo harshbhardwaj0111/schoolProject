@@ -40,8 +40,8 @@ const deleteClassList=async(req,res)=>{
     try 
     {
         let db= await dbConnect();
-        let collection = db.collection('classData');
-        const deleteResult = await collection.deleteOne({ name:req.query.id });
+        let collection = db.collection('classList');
+        const deleteResult = await collection.deleteOne({ id:parseInt(req.query.id) });
         console.log('Deleted documents =>', req.query);
         res.send({
             status:200,
