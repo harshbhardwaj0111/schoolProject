@@ -11,10 +11,10 @@ app.get('**',(req,res)=>{
     res.send("wrong :-)")
 })
 
-app.listen(8080,(err)=>{
+app.listen(6000,(err)=>{
   if(err)
     {
         console.log("Error"+err)
     }
-    console.log("api listening on port no 8000")
+    console.log("api listening on port no 6000")
 })
