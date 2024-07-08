@@ -5,9 +5,13 @@
     "cdbreact": "^1.5.19",
     "react-bootstrap": "^2.10.4",
     "react-icons": "^5.2.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
+=======
+    "react-router-dom": "^6.24.1",
+>>>>>>> ff28695081c58416a8bb0eddb911773efb596b0e
     "tailwindcss": "^3.4.4"
   }
 }
